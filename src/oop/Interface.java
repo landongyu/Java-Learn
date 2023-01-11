@@ -19,8 +19,9 @@ public class Interface {
 //        class AA extends BB implements CC, DD, EE
 //     7. 类实现接口，类继承类，接口和接口之间可以继承，而且可以多继承
 //     8. 接口的具体使用，体现多态性
-//     9. 接口，实际上可以看作规范，如果你要飞，则必须能实现flyable
-//   面试题：抽象类和接口有哪些异同？都不能实例化对象
+//     9. 接口，实际上可以看作规范
+//   面试题：抽象类和接口有哪些异同？同：都不能实例化对象
+//
 
     public static void main(String[] args) {
         System.out.println(Flyable.MAX_SPEED);
