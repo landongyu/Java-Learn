@@ -1,11 +1,8 @@
 package character;
 
-public class ADAPHero extends Hero implements AD,AP,Mortal {
+public class APHero extends Hero implements AP,Mortal {
     public void magicAttack() {
         System.out.println("进行魔法攻击");
-    }
-    public void physicAttack() {
-        System.out.println("进行物理攻击");
     }
     public void die() {
         System.out.println(name+"死亡");
