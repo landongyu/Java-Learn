@@ -1,4 +1,4 @@
-package charactor;
+package character;
 
 public class ADAPHero extends Hero implements AD,AP {
     public void magicAttack() {
